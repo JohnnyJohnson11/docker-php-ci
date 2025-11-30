@@ -29,3 +29,4 @@ jobs:
           push: true
           target: final
           tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+          
